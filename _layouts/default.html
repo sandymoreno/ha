@@ -15,7 +15,7 @@
     <div class="row">
         <div class="large-3 columns">
             <div id="brand">
-                <img src="{{site.baseurl}}/images/logo.jpg" alt="logo hotel antares">
+                <img src="{{site.baseurl}}/images/logo.png" alt="logo hotel antares">
             </div>
 
         </div>
@@ -69,6 +69,21 @@
         </div>
     </div>
 </footer>
+
+
+<script src="{{site.baseurl}}/js/jquery-1.8.3.min.js"></script>
+<script src="{{site.baseurl}}/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+   $(window).load(function(){
+        $('#slider').flexslider({
+            animation: "slide",
+            directionNav: false,
+            start: function(slider){
+                $('body').removeClass('loading');
+            }
+        });
+    });
+</script>
 
 </body>
 </html>
