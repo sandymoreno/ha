@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{site.baseurl}}/css/screen.css">
+</head>
+<body>
+
+<header id="header">
+    <div class="row">
+        <div class="large-3 columns">
+            <div id="brand">
+                <img src="{{site.baseurl}}/images/logo.jpg" alt="logo hotel antares">
+            </div>
+
+        </div>
+        <div class="large-9 columns">
+            <div id="head-bar" class="right">
+
+                <div id="lang" class="right">
+                    <a href="#">EN</a>
+                    |
+                    <a href="#">ES</a>
+                </div>
+                <div id="weather" class="right">
+                    Veracruz, mx <img title="Televisión" src="{{site.baseurl}}/images/weather.png"> 30 ºC
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="menu-container">
+        <div class="row">
+            <div class="large-12 columns">
+                <ul class="inline-list right main-menu">
+                    <li><a href="{{ page.base_url }}servicios.html">Servicios</a></li>
+                    <li><a href="#">Habitaciones</a></li>
+                    <li><a href="#">Reservas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+{{content}}
+
+
+
+<footer id="footer">
+    <div class="row">
+        <div class="large-12 columns">
+
+            Copyright © 2013 Hotel Antares.
+
+            <ul class="inline-list right">
+                <li><a href="#"><img src="{{site.baseurl}}/images/fb.png"></a></li>
+                <li><a href="#"><img src="{{site.baseurl}}/images/tw.png"></a></li>
+                <li><a href="#"><img src="{{site.baseurl}}/images/gp.png"></a></li>
+            </ul>
+
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

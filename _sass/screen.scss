@@ -1,0 +1,230 @@
+
+@charset "UTF-8";
+
+@import "base";
+@import "foundation/variables";
+
+
+@import "normalize";
+
+@import "compass/css3";
+
+
+
+// Foundation Components
+@import
+"foundation/components/global",
+"foundation/components/grid-5",
+"foundation/components/visibility",
+"foundation/components/block-grid",
+"foundation/components/type",
+"foundation/components/buttons",
+"foundation/components/forms",
+"foundation/components/button-groups",
+// "foundation/components/dropdown-buttons",
+// "foundation/components/split-buttons",
+// "foundation/components/flex-video",
+// "foundation/components/section",
+// "foundation/components/top-bar",
+// "foundation/components/orbit",
+// "foundation/components/reveal",
+// "foundation/components/joyride",
+// "foundation/components/clearing",
+// "foundation/components/alert-boxes",
+//  "foundation/components/breadcrumbs",
+//  "foundation/components/custom-forms",
+//  "foundation/components/keystrokes",
+"foundation/components/labels",
+"foundation/components/inline-lists",
+//  "foundation/components/pagination",
+"foundation/components/panels",
+//  "foundation/components/pricing-tables",
+//  "foundation/components/progress-bars",
+"foundation/components/side-nav",
+//  "foundation/components/sub-nav",
+//  "foundation/components/switch",
+//  "foundation/components/magellan",
+//  "foundation/components/tables",
+"foundation/components/thumbs";
+//  "foundation/components/tooltips",
+// "foundation/components/dropdown";
+
+
+
+@font-face {
+  font-family: 'OpenSansCondensedLight';
+  src: url('../font/OpenSans-CondLight-webfont.eot');
+  src: url('../font/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/OpenSans-CondLight-webfont.woff') format('woff'),
+  url('../font/OpenSans-CondLight-webfont.ttf') format('truetype'),
+  url('../font/OpenSans-CondLight-webfont.svg#OpenSansCondensedLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+#header {
+  background: $primary-color;
+  //height: em-calc(50);
+  color: $cab-font-color;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+
+  .row {position: relative}
+
+}
+
+#brand{
+  background: #ffffff;
+  position: absolute;
+  @include single-box-shadow($voff: 1px, $blur: 2px, $color: rgba(0,0,0,0.1) );
+  padding: em-calc(10);
+}
+
+#head-bar{
+  padding: em-calc(22) 0;
+  font-size: em-calc(14);
+}
+
+#lang{
+  margin-left: em-calc(40);
+  a {color: $cab-font-color;
+  &:hover{ color: darken($cab-font-color, 5%)}
+  }
+}
+
+#menu-container {
+  width: 100%;
+  background: #efefef;
+  border-bottom: 1px solid #E6E6E6;
+  @include single-box-shadow($voff: -2px, $blur: 2px, $color: darken($primary-color, 10%) );
+
+}
+
+
+.main-menu{
+  margin: 0;
+  background: url("../images/menu_top_divider.png") no-repeat scroll right top transparent;
+
+  li {
+    margin-left: 0;
+    background: url("../images/menu_top_divider.png") no-repeat scroll left top transparent;
+
+
+  }
+
+  a {
+    padding: em-calc(2) em-calc(22);
+    text-transform: uppercase;
+    @include single-transition;
+    &:hover{
+      @include background-image(linear-gradient($primary-color,darken($primary-color, 5%)));
+      color: #ffffff;
+
+    }
+  }
+
+}
+
+
+#slider {
+
+  margin-top: em-calc(120);
+
+}
+
+.wrapper{
+  margin-top: em-calc(48);
+  background: url("../images/big_shadow.png") no-repeat scroll center 1px #f7f7f7;
+  border-top: 1px solid #E6E6E6;
+  border-bottom: 1px solid #E6E6E6;
+  margin-bottom: em-calc(22);
+
+}
+
+.call {
+  padding: em-calc(10);
+
+  background: #ffffff;
+  @include single-box-shadow($voff: 1px, $blur: 3px, $color: rgba(0, 0, 0, 0.3));
+  position: relative;
+  //height: em-calc(50);
+  top: em-calc(-32);
+  h2 {margin: 0; font-size: em-calc(30)}
+
+  a {
+
+
+    @include button-base;
+    @include button-size;
+    @include button-style;
+    @include radius;
+    @include single-transition;
+    @include inset-shadow(true);
+    margin-bottom: 0;
+    font-weight: 400;
+    //@include single-text-shadow($voff: 1px, $hoff: 1px, $color: rgba(0, 0, 0, 0.7));
+  }
+
+  .number { color: darken($header-font-color, 10%)}
+
+  @include clearfix;
+}
+
+
+.room-col{
+  h4,h5 { margin-bottom: 0;}
+
+  .price { color: $primary-color;}
+
+  .desc {margin-bottom: em-calc(10);}
+}
+
+.img-wrapper{
+  position: relative;
+  margin-bottom: em-calc(10);
+  .capt{
+    position: absolute;
+    bottom: 0;
+    @include background-image(linear-gradient($primary-color,darken($primary-color, 5%)));
+    color: #ffffff;
+    width: 100%;
+    padding: em-calc(10);
+    text-transform: uppercase;
+    @include single-text-shadow($voff: 1px, $hoff: 1px, $color: rgba(0, 0, 0, 0.7));
+
+  }
+
+
+
+  a {
+    color: #ffffff;
+    //text-decoration: underline;
+    border-left: solid 1px $primary-color;
+    //background: url("../images/menu_top_divider.png") no-repeat scroll left top transparent;
+
+  }
+
+}
+
+#footer{
+  //position: relative;
+  //bottom: 0;
+  background: $primary-color;
+  color: $cab-font-color;
+  padding: em-calc(22) 0;
+  @include single-box-shadow($inset: true, $voff: 2px, $blur: 2px, $color: darken($primary-color, 10%) );
+  @include single-text-shadow($voff: 1px, $hoff: 1px, $color: rgba(0, 0, 0, 0.7));
+
+  ul{margin: 0;}
+}
+
+
+
+
+
+
+
