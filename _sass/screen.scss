@@ -80,8 +80,9 @@
 #brand{
   background: #ffffff;
   position: absolute;
-  @include single-box-shadow($voff: 1px, $blur: 2px, $color: rgba(0,0,0,0.1) );
+  @include single-box-shadow($voff: 1px, $blur: 2px, $color: rgba(0,0,0,0.2) );
   padding: em-calc(10);
+
 }
 
 #head-bar{
@@ -101,6 +102,7 @@
   background: #efefef;
   border-bottom: 1px solid #E6E6E6;
   @include single-box-shadow($voff: -2px, $blur: 2px, $color: darken($primary-color, 10%) );
+
 
 }
 
@@ -132,7 +134,7 @@
 
 #slider {
 
-  margin-top: em-calc(120);
+  margin-top: em-calc(130);
 
 }
 
@@ -177,7 +179,7 @@
 
 .room-col{
   h4,h5 { margin-bottom: 0;}
-
+  h4 {font-size: em-calc(22 )}
   .price { color: $primary-color;}
 
   .desc {margin-bottom: em-calc(10);}
@@ -275,7 +277,7 @@ html[xmlns] .slides {display: block;}
 .flex-pauseplay a.flex-play:before { content: '\f003'; }
 
 /* Control Nav */
-.flex-control-nav {width: 100%; position: absolute; bottom: em-calc(-32);}
+.flex-control-nav {width: 100%; position: absolute; bottom: -30px;}
 .flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
 .flex-control-paging li a {width: 11px; height: 11px; display: block; background: #666; background: rgba(0,0,0,0.5); cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); -moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); -o-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); box-shadow: inset 0 0 3px rgba(0,0,0,0.3); }
 .flex-control-paging li a:hover { background: #333; background: rgba(0,0,0,0.7); }

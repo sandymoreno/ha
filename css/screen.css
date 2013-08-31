@@ -3639,32 +3639,32 @@ a.th {
 #brand {
   background: #ffffff;
   position: absolute;
-  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
   padding: 0.625em;
 }
 
-/* line 87, ../_sass/screen.scss */
+/* line 88, ../_sass/screen.scss */
 #head-bar {
   padding: 1.375em 0;
   font-size: 0.875em;
 }
 
-/* line 92, ../_sass/screen.scss */
+/* line 93, ../_sass/screen.scss */
 #lang {
   margin-left: 2.5em;
 }
-/* line 94, ../_sass/screen.scss */
+/* line 95, ../_sass/screen.scss */
 #lang a {
   color: #d9efe3;
 }
-/* line 95, ../_sass/screen.scss */
+/* line 96, ../_sass/screen.scss */
 #lang a:hover {
   color: #c7e7d6;
 }
 
-/* line 99, ../_sass/screen.scss */
+/* line 100, ../_sass/screen.scss */
 #menu-container {
   width: 100%;
   background: #efefef;
@@ -3674,17 +3674,17 @@ a.th {
   box-shadow: 0px -2px 2px #051b0f;
 }
 
-/* line 108, ../_sass/screen.scss */
+/* line 110, ../_sass/screen.scss */
 .main-menu {
   margin: 0;
   background: url("../images/menu_top_divider.png") no-repeat scroll right top transparent;
 }
-/* line 112, ../_sass/screen.scss */
+/* line 114, ../_sass/screen.scss */
 .main-menu li {
   margin-left: 0;
   background: url("../images/menu_top_divider.png") no-repeat scroll left top transparent;
 }
-/* line 119, ../_sass/screen.scss */
+/* line 121, ../_sass/screen.scss */
 .main-menu a {
   padding: 0.125em 1.375em;
   text-transform: uppercase;
@@ -3692,7 +3692,7 @@ a.th {
   -moz-transition: all 300ms ease-out;
   transition: all 300ms ease-out;
 }
-/* line 123, ../_sass/screen.scss */
+/* line 125, ../_sass/screen.scss */
 .main-menu a:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0c4727), color-stop(100%, #08311b));
   background-image: -webkit-linear-gradient(#0c4727, #08311b);
@@ -3702,12 +3702,12 @@ a.th {
   color: #ffffff;
 }
 
-/* line 133, ../_sass/screen.scss */
+/* line 135, ../_sass/screen.scss */
 #slider {
-  margin-top: 7.5em;
+  margin-top: 8.125em;
 }
 
-/* line 139, ../_sass/screen.scss */
+/* line 141, ../_sass/screen.scss */
 .wrapper {
   margin-top: 3em;
   background: url("../images/big_shadow.png") no-repeat scroll center 1px #f7f7f7;
@@ -3716,7 +3716,7 @@ a.th {
   margin-bottom: 1.375em;
 }
 
-/* line 148, ../_sass/screen.scss */
+/* line 150, ../_sass/screen.scss */
 .call {
   padding: 0.625em;
   background: #ffffff;
@@ -3727,12 +3727,12 @@ a.th {
   top: -2em;
   *zoom: 1;
 }
-/* line 156, ../_sass/screen.scss */
+/* line 158, ../_sass/screen.scss */
 .call h2 {
   margin: 0;
   font-size: 1.875em;
 }
-/* line 158, ../_sass/screen.scss */
+/* line 160, ../_sass/screen.scss */
 .call a {
   border-style: solid;
   border-width: 1px;
@@ -3775,7 +3775,7 @@ a.th {
   -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
 }
-/* line 172, ../_sass/screen.scss */
+/* line 174, ../_sass/screen.scss */
 .call .number {
   color: #5e5e5e;
 }
@@ -3789,19 +3789,23 @@ a.th {
   clear: both;
 }
 
-/* line 179, ../_sass/screen.scss */
+/* line 181, ../_sass/screen.scss */
 .room-col h4, .room-col h5 {
   margin-bottom: 0;
 }
-/* line 181, ../_sass/screen.scss */
+/* line 182, ../_sass/screen.scss */
+.room-col h4 {
+  font-size: 1.375em;
+}
+/* line 183, ../_sass/screen.scss */
 .room-col .price {
   color: #0c4727;
 }
-/* line 183, ../_sass/screen.scss */
+/* line 185, ../_sass/screen.scss */
 .room-col .desc {
   margin-bottom: 0.625em;
 }
-/* line 185, ../_sass/screen.scss */
+/* line 187, ../_sass/screen.scss */
 .room-col .btn {
   border-style: solid;
   border-width: 1px;
@@ -3838,12 +3842,12 @@ a.th {
   color: #d9efe3;
 }
 
-/* line 194, ../_sass/screen.scss */
+/* line 196, ../_sass/screen.scss */
 .img-wrapper {
   position: relative;
   margin-bottom: 0.625em;
 }
-/* line 197, ../_sass/screen.scss */
+/* line 199, ../_sass/screen.scss */
 .img-wrapper .capt {
   position: absolute;
   bottom: 0;
@@ -3857,13 +3861,13 @@ a.th {
   padding: 0.625em;
   text-transform: uppercase;
 }
-/* line 211, ../_sass/screen.scss */
+/* line 213, ../_sass/screen.scss */
 .img-wrapper a {
   color: #ffffff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 
-/* line 218, ../_sass/screen.scss */
+/* line 220, ../_sass/screen.scss */
 #footer {
   background: #0c4727;
   color: #d9efe3;
@@ -3873,44 +3877,44 @@ a.th {
   box-shadow: inset 0px 2px 2px #051b0f;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 }
-/* line 227, ../_sass/screen.scss */
+/* line 229, ../_sass/screen.scss */
 #footer ul {
   margin: 0;
 }
 
 /* FlexSlider Necessary Styles
 *********************************/
-/* line 233, ../_sass/screen.scss */
+/* line 235, ../_sass/screen.scss */
 .flexslider {
   margin: 0;
   padding: 0;
 }
 
-/* line 234, ../_sass/screen.scss */
+/* line 236, ../_sass/screen.scss */
 .flexslider .slides {
   margin-bottom: 0;
 }
 
-/* line 235, ../_sass/screen.scss */
+/* line 237, ../_sass/screen.scss */
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
 }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-/* line 236, ../_sass/screen.scss */
+/* line 238, ../_sass/screen.scss */
 .flexslider .slides img {
   width: 100%;
   display: block;
 }
 
-/* line 237, ../_sass/screen.scss */
+/* line 239, ../_sass/screen.scss */
 .flex-pauseplay span {
   text-transform: capitalize;
 }
 
 /* Clearfix for the .slides element */
-/* line 240, ../_sass/screen.scss */
+/* line 242, ../_sass/screen.scss */
 .slides:after {
   content: "\0020";
   display: block;
@@ -3920,12 +3924,12 @@ a.th {
   height: 0;
 }
 
-/* line 241, ../_sass/screen.scss */
+/* line 243, ../_sass/screen.scss */
 html[xmlns] .slides {
   display: block;
 }
 
-/* line 242, ../_sass/screen.scss */
+/* line 244, ../_sass/screen.scss */
 * html .slides {
   height: 1%;
 }
@@ -3933,14 +3937,14 @@ html[xmlns] .slides {
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
-/* line 247, ../_sass/screen.scss */
+/* line 249, ../_sass/screen.scss */
 .no-js .slides > li:first-child {
   display: block;
 }
 
 /* FlexSlider Default Theme
 *********************************/
-/* line 251, ../_sass/screen.scss */
+/* line 253, ../_sass/screen.scss */
 .flexslider {
   margin: 0 0 1.875em;
   background: #fff;
@@ -3957,7 +3961,7 @@ html[xmlns] .slides {
   zoom: 1;
 }
 
-/* line 252, ../_sass/screen.scss */
+/* line 254, ../_sass/screen.scss */
 .flex-viewport {
   max-height: 2000px;
   -webkit-transition: all 1s ease;
@@ -3966,34 +3970,34 @@ html[xmlns] .slides {
   transition: all 1s ease;
 }
 
-/* line 253, ../_sass/screen.scss */
+/* line 255, ../_sass/screen.scss */
 .loading .flex-viewport {
   max-height: 300px;
 }
 
-/* line 254, ../_sass/screen.scss */
+/* line 256, ../_sass/screen.scss */
 .flexslider .slides {
   zoom: 1;
 }
 
-/* line 255, ../_sass/screen.scss */
+/* line 257, ../_sass/screen.scss */
 .carousel li {
   margin-right: 5px;
 }
 
-/* line 257, ../_sass/screen.scss */
+/* line 259, ../_sass/screen.scss */
 .flexslider ul, .flexslider ol {
   margin-bottom: 0;
 }
 
 /* Direction Nav */
-/* line 260, ../_sass/screen.scss */
+/* line 262, ../_sass/screen.scss */
 .flex-direction-nav {
   *height: 0;
   list-style: none;
 }
 
-/* line 261, ../_sass/screen.scss */
+/* line 263, ../_sass/screen.scss */
 .flex-direction-nav a {
   display: block;
   width: 40px;
@@ -4012,42 +4016,42 @@ html[xmlns] .slides {
   transition: all .3s ease;
 }
 
-/* line 262, ../_sass/screen.scss */
+/* line 264, ../_sass/screen.scss */
 .flex-direction-nav .flex-prev {
   left: -50px;
 }
 
-/* line 263, ../_sass/screen.scss */
+/* line 265, ../_sass/screen.scss */
 .flex-direction-nav .flex-next {
   right: -50px;
   text-align: right;
 }
 
-/* line 264, ../_sass/screen.scss */
+/* line 266, ../_sass/screen.scss */
 .flexslider:hover .flex-prev {
   opacity: 0.7;
   left: 10px;
 }
 
-/* line 265, ../_sass/screen.scss */
+/* line 267, ../_sass/screen.scss */
 .flexslider:hover .flex-next {
   opacity: 0.7;
   right: 10px;
 }
 
-/* line 266, ../_sass/screen.scss */
+/* line 268, ../_sass/screen.scss */
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
   opacity: 1;
 }
 
-/* line 267, ../_sass/screen.scss */
+/* line 269, ../_sass/screen.scss */
 .flex-direction-nav .flex-disabled {
   opacity: 0 !important;
   filter: alpha(opacity=0);
   cursor: default;
 }
 
-/* line 268, ../_sass/screen.scss */
+/* line 270, ../_sass/screen.scss */
 .flex-direction-nav a:before {
   font-family: "flexslider-icon";
   font-size: 40px;
@@ -4055,13 +4059,13 @@ html[xmlns] .slides {
   content: '\f001';
 }
 
-/* line 269, ../_sass/screen.scss */
+/* line 271, ../_sass/screen.scss */
 .flex-direction-nav a.flex-next:before {
   content: '\f002';
 }
 
 /* Pause/Play */
-/* line 272, ../_sass/screen.scss */
+/* line 274, ../_sass/screen.scss */
 .flex-pauseplay a {
   display: block;
   width: 20px;
@@ -4076,7 +4080,7 @@ html[xmlns] .slides {
   color: #000;
 }
 
-/* line 273, ../_sass/screen.scss */
+/* line 275, ../_sass/screen.scss */
 .flex-pauseplay a:before {
   font-family: "flexslider-icon";
   font-size: 20px;
@@ -4084,25 +4088,25 @@ html[xmlns] .slides {
   content: '\f004';
 }
 
-/* line 274, ../_sass/screen.scss */
+/* line 276, ../_sass/screen.scss */
 .flex-pauseplay a:hover {
   opacity: 1;
 }
 
-/* line 275, ../_sass/screen.scss */
+/* line 277, ../_sass/screen.scss */
 .flex-pauseplay a.flex-play:before {
   content: '\f003';
 }
 
 /* Control Nav */
-/* line 278, ../_sass/screen.scss */
+/* line 280, ../_sass/screen.scss */
 .flex-control-nav {
   width: 100%;
   position: absolute;
-  bottom: -2em;
+  bottom: -30px;
 }
 
-/* line 279, ../_sass/screen.scss */
+/* line 281, ../_sass/screen.scss */
 .flex-control-nav li {
   margin: 0 6px;
   display: inline-block;
@@ -4110,7 +4114,7 @@ html[xmlns] .slides {
   *display: inline;
 }
 
-/* line 280, ../_sass/screen.scss */
+/* line 282, ../_sass/screen.scss */
 .flex-control-paging li a {
   width: 11px;
   height: 11px;
@@ -4129,34 +4133,34 @@ html[xmlns] .slides {
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
-/* line 281, ../_sass/screen.scss */
+/* line 283, ../_sass/screen.scss */
 .flex-control-paging li a:hover {
   background: #333;
   background: rgba(0, 0, 0, 0.7);
 }
 
-/* line 282, ../_sass/screen.scss */
+/* line 284, ../_sass/screen.scss */
 .flex-control-paging li a.flex-active {
   background: #000;
   background: rgba(0, 0, 0, 0.9);
   cursor: default;
 }
 
-/* line 284, ../_sass/screen.scss */
+/* line 286, ../_sass/screen.scss */
 .flex-control-thumbs {
   margin: 5px 0 0;
   position: static;
   overflow: hidden;
 }
 
-/* line 285, ../_sass/screen.scss */
+/* line 287, ../_sass/screen.scss */
 .flex-control-thumbs li {
   width: 25%;
   float: left;
   margin: 0;
 }
 
-/* line 286, ../_sass/screen.scss */
+/* line 288, ../_sass/screen.scss */
 .flex-control-thumbs img {
   width: 100%;
   display: block;
@@ -4164,25 +4168,25 @@ html[xmlns] .slides {
   cursor: pointer;
 }
 
-/* line 287, ../_sass/screen.scss */
+/* line 289, ../_sass/screen.scss */
 .flex-control-thumbs img:hover {
   opacity: 1;
 }
 
-/* line 288, ../_sass/screen.scss */
+/* line 290, ../_sass/screen.scss */
 .flex-control-thumbs .flex-active {
   opacity: 1;
   cursor: default;
 }
 
 @media screen and (max-width: 860px) {
-  /* line 291, ../_sass/screen.scss */
+  /* line 293, ../_sass/screen.scss */
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 10px;
   }
 
-  /* line 292, ../_sass/screen.scss */
+  /* line 294, ../_sass/screen.scss */
   .flex-direction-nav .flex-next {
     opacity: 1;
     right: 10px;
