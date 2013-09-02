@@ -1,4 +1,4 @@
 name: Demo Hotel Antares
 markdown: redcarpet
 pygments: true
-baseurl: /_site
+baseurl: /ha
