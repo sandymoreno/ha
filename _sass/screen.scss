@@ -108,8 +108,8 @@
 
 #menu-container {
   width: 100%;
-  background: #efefef;
-  border-bottom: 1px solid #E6E6E6;
+  background: $yellow-color;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   @include single-box-shadow($voff: -2px, $blur: 2px, $color: darken($primary-color, 10%) );
 
 
@@ -118,18 +118,21 @@
 
 .main-menu{
   margin: 0;
-  background: url("../images/menu_top_divider.png") no-repeat scroll right top transparent;
-
+  border-left: 1px solid rgba(255, 255, 255, 0.11);
+  box-shadow: -1px 0 0 rgba(0, 0, 0, 0.1);
+  padding-right: 1px;
   li {
     margin-left: 0;
-    background: url("../images/menu_top_divider.png") no-repeat scroll left top transparent;
-
 
   }
 
   a {
     padding: em-calc(2) em-calc(22);
     text-transform: uppercase;
+
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 0 0 rgba(255, 255, 255, 0.21);
+
     @include single-transition;
     &:hover{
       @include background-image(linear-gradient($primary-color,darken($primary-color, 5%)));
@@ -148,7 +151,7 @@
 }
 
 .wrapper{
-  margin-top: em-calc(48);
+  margin-top: em-calc(40);
   background: url("../images/big_shadow.png") no-repeat scroll center 1px #f7f7f7;
   border-top: 1px solid #E6E6E6;
   border-bottom: 1px solid #E6E6E6;
